@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 500px; */
+    background-image: url(bg1.jpg);
+    background-image: linear-gradient(rgba(201, 8, 8, 0.7),rgba(50, 8, 0, 0.7)), url(bg1.jpg);
+    background-size: cover;
+    background-color: rgb(190, 110, 12);
+    height: 100vh;
+    width: 100%;
+}
+
+.logo img {
+    height: 300px;
+    width: 300px;
+}
+
+.logo_text {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1100px; */
+    margin-top: 100px;
+    width: 50%;
+}
+
+.text {
+    width: 100%;
+}
+
+.text h1 {
+    color: bisque;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.text p {
+    color: bisque;
+    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+}
+
+hr {
+    margin: 10px 0px 30px 0px;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* background-color: wheat; */
+    background: linear-gradient(rgba(243, 235, 167, 0.5),rgba(247, 248, 175, 0.5));
+    width: 30%;
+    height: 40%;
+    border-radius: 20px;
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.input_wrapper input {
+    /* display: none; */
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 9px;
+    padding: 5px 0px 5px 20px;
+    background-color: rgb(250, 241, 229);
+    font-size: 15px;
+}
+
+.input_wrapper .btn {
+    background-color: rgb(187, 30, 30);
+    margin-left: 10px;
+    color: bisque;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input_wrapper .btn:hover {
+    color: rgb(171, 24, 5);
+    background-color: bisque;
+    transition: ease-in-out;
+}
+
+.input_wrapper h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input_wrapper p {
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(96, 29, 4);
+}
