@@ -58,10 +58,10 @@ hr {
     /* background-color: wheat; */
     background: linear-gradient(rgba(243, 235, 167, 0.5),rgba(247, 248, 175, 0.5));
     width: 30%;
-    height: 70%;
+    height: 50%;
     border-radius: 20px;
     margin-top: 200px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
